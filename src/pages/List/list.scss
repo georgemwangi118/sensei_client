@@ -1,0 +1,44 @@
+.logo-img {
+  height: 30px;
+  width: 30px;
+}
+fieldset {
+  display: block;
+}
+.top {
+  background-color: rgba(53, 58, 72, 1) !important;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  .logo {
+    align-self: center;
+  }
+  .form-container {
+    display: flex;
+    .left {
+      padding-left: 50px;
+      p {
+        font-weight: 500;
+        font-size: 18px;
+      }
+      h1 {
+        color: #fff;
+        font-weight: 800;
+        font-size: 45px;
+      }
+    }
+    .right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.bottom {
+  height: 30px;
+  display: flex;
+  div {
+    margin: 0 auto;
+  }
+}

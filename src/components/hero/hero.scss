@@ -1,0 +1,15 @@
+.bordered-div {
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 20px;
+
+  .wrapper-div {
+    display: flex;
+    align-items: center;
+    margin: 5px 20px;
+    p {
+      color: #fff !important;
+      //margin: 0 auto;
+    }
+  }
+}
