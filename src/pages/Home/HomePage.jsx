@@ -1,4 +1,6 @@
 import { useState } from "react";
+
+import Cards from "../../components/cards/Cards";
 import Footer from "../../components/footer/Footer";
 import Hero from "../../components/hero/Hero";
 import { homeObjOne } from "../../components/info/Data";
@@ -18,6 +20,7 @@ const HomePage = () => {
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Hero />
+      <Cards />
       <Info {...homeObjOne} />
       <Footer />
     </div>

@@ -18,6 +18,7 @@ import Appointments from "./pages/Appointments";
 import DoctorAppointments from "./pages/Doctor/DoctorAppointments";
 import HomePage from "./pages/Home/HomePage";
 import List from "./pages/List/List";
+import Search from "./components/search/Search";
 
 function App() {
   const loading = useSelector((state) => state.alerts);
@@ -32,6 +33,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/list" element={<List />} />
+        <Route path="/search" element={<Search />} />
         <Route
           path="/login"
           element={
